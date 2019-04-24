@@ -1,0 +1,209 @@
+@media only screen and (max-width: 1300px) {
+  .container {
+    max-width: 1310px; } }
+body {
+  font-family: 'Times New Roman', Times, serif; }
+
+/*sass*/
+/*header*/
+.ghost {
+  position: fixed;
+  width: 100%;
+  height: 170px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.719);
+  background-size: 100% 100%;
+  padding: 0 0 15px 0; }
+  .ghost .cartheader {
+    background: url("../image/topjuosta.png") no-repeat;
+    background-size: 100% 100%;
+    width: 80%;
+    display: inline-block; }
+    .ghost .cartheader ul {
+      text-align: right;
+      margin-bottom: 10px; }
+      .ghost .cartheader ul li {
+        display: inline-block;
+        padding: 5px; }
+        .ghost .cartheader ul li a {
+          color: #429926;
+          font-size: 16px; }
+        .ghost .cartheader ul li a:hover {
+          color: grey; }
+        .ghost .cartheader ul li img {
+          padding: 5px 20px 5px 20px;
+          border-left: 1px solid #a3ae9b; }
+  .ghost .menu-wraper {
+    padding: 50px 0 0 0; }
+    .ghost .menu-wraper ul {
+      float: right; }
+      .ghost .menu-wraper ul li {
+        display: inline-block; }
+        .ghost .menu-wraper ul li a {
+          color: #429926;
+          padding: 0 15px;
+          font-size: 24px; }
+        .ghost .menu-wraper ul li a:hover {
+          color: grey; }
+
+button.owl-next {
+  position: absolute;
+  left: 95%;
+  width: 30px;
+  height: 50px; }
+
+button.owl-prev {
+  position: absolute;
+  right: 95%;
+  width: 30px;
+  height: 50px; }
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  background-color: rgba(255, 255, 255, 0.42); }
+
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%; }
+
+.pirma-pakopa .lizdas {
+  width: 250px;
+  display: inline-block;
+  margin: 1%; }
+  .pirma-pakopa .lizdas img {
+    height: 200px; }
+  .pirma-pakopa .lizdas h4 {
+    border-top: 1px solid black;
+    font-size: 17px;
+    font-weight: bold;
+    color: #429926;
+    margin: 5px 0 5px 0;
+    padding-top: 5px;
+    text-transform: uppercase; }
+  .pirma-pakopa .lizdas h5 {
+    color: #8c0202;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .pirma-pakopa .lizdas h6 {
+    margin: 0;
+    text-transform: uppercase; }
+  .pirma-pakopa .lizdas .clikas {
+    background-color: #429926;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    line-height: 4;
+    text-transform: uppercase;
+    font-size: 10px; }
+  .pirma-pakopa .lizdas .clikas:hover {
+    color: black;
+    text-decoration: none; }
+
+.antra-pakopa {
+  background: #c3e25a;
+  background-size: 100% 100%;
+  padding: 70px 0 70px 0; }
+  .antra-pakopa .mini-lizdas {
+    border: 2px solid white;
+    width: 270px;
+    height: 210px;
+    display: inline-block;
+    margin-bottom: 5px; }
+    .antra-pakopa .mini-lizdas h3 {
+      text-transform: uppercase;
+      color: #429926;
+      font-weight: bold;
+      padding: 5px; }
+    .antra-pakopa .mini-lizdas img {
+      border-radius: 100%;
+      margin: 5px; }
+  .antra-pakopa .mini-lizdas:hover {
+    text-decoration: none; }
+    .antra-pakopa .mini-lizdas:hover h3 {
+      color: grey; }
+
+.trecia-pakopa {
+  background: url("../image/obuolys.jpg");
+  background-size: 100% 100%;
+  padding: 100px 0 100px 0; }
+  .trecia-pakopa h1 {
+    color: #429926;
+    font-weight: bold; }
+  .trecia-pakopa p {
+    color: #429926; }
+
+.ketvirta-pakopa {
+  background: url("../image/ketvirto-bekas.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 90px;
+  margin-bottom: 60px; }
+  .ketvirta-pakopa .ikona-buda {
+    float: left;
+    display: inline-block;
+    width: 200px; }
+  .ketvirta-pakopa .ikona-kareivis {
+    display: inline-block;
+    width: 200px; }
+  .ketvirta-pakopa .ikona-krepselis {
+    display: inline-block;
+    width: 200px;
+    float: right; }
+  .ketvirta-pakopa h1, .ketvirta-pakopa p {
+    color: black; }
+  .ketvirta-pakopa .a:hover {
+    text-decoration: none;
+    color: grey; }
+
+.penkta-pakopa .tekstas {
+  width: 45%;
+  display: inline-block; }
+  .penkta-pakopa .tekstas h1 {
+    color: #429926;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px; }
+  .penkta-pakopa .tekstas p {
+    color: #429926; }
+.penkta-pakopa .fb {
+  display: inline-block; }
+
+.footeris {
+  margin-top: 20px;
+  background-color: #222222;
+  padding: 10px; }
+  .footeris h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white; }
+  .footeris h4 {
+    font-size: 15px;
+    color: #429926; }
+  .footeris p {
+    font-size: 15px;
+    color: white; }
+
+.endas {
+  background-color: black;
+  padding-top: 3px; }
+  .endas .bi {
+    color: white;
+    float: left; }
+  .endas .kkk {
+    color: white;
+    float: right; }
+
+@media only screen and (max-width: 800px) {
+  .header .ghost .menu-wraper {
+    padding: 0 0 0 0; }
+
+  .pagrindas .trecia-pakopa {
+    padding: 5px 0 5px 0; } }
+
+/*# sourceMappingURL=pagrindinis.css.map */
